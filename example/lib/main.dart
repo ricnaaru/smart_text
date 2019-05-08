@@ -1,20 +1,11 @@
-# Smart Text
+import 'package:flutter/material.dart';
+import 'dart:async';
 
-Text to render emoji well by decreasing its height, and draw hyperlink as well (Inspired by [Flutter Linkify](https://pub.dartlang.org/packages/flutter_linkify))
+import 'package:flutter/services.dart';
+import 'package:smart_text/smart_text.dart';
 
-*Note*: This plugin is still under development, and some Components might not be available yet or still has so many bugs.
-- We are using [URL Launcher](https://pub.dartlang.org/packages/url_launcher) library too to support this Text to launch URL right away
+void main() => runApp(MyApp());
 
-## Installation
-
-First, add `smart_text` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
-
-```
-smart_text: ^0.0.1+1
-```
-
-## Example
-```
 class MyApp extends StatefulWidget {
   @override
   _MyAppState createState() => _MyAppState();
@@ -38,4 +29,3 @@ class _MyAppState extends State<MyApp> {
     );
   }
 }
-```
