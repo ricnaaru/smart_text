@@ -1,6 +1,6 @@
 name: smart_text
 description: Text to render emoji well by decreasing its height, and draw hyperlink as well
-version: 0.0.1+2
+version: 0.0.1+3
 author: Richardo <richardothayeb@gmail.com>
 homepage: https://github.com/ricnaaru
 
