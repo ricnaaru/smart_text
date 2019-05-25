@@ -47,9 +47,9 @@ List<TextElement> checkUrl(String text) {
 }
 
 class SmartTextConfig {
-  static const String readMoreText = "Read More";
-  static const String readLessText = "Show Less";
-  static const int maxLines = null;
+  static String readMoreText = "Read More";
+  static String readLessText = "Show Less";
+  static int maxLines;
 }
 
 class SmartText extends StatefulWidget {

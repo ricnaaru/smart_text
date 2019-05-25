@@ -10,7 +10,7 @@ Text to render emoji well by decreasing its height, and draw hyperlink as well (
 First, add `smart_text` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
 
 ```
-smart_text: ^0.0.1+1
+smart_text: ^0.0.1+2
 ```
 
 ## Example
